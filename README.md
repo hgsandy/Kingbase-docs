@@ -110,7 +110,7 @@ docker exec -it kingbasees ksql -U system -d test -h localhost -p 54321
 - 📅 培训服务：提供初级/中级/高级开发者培训，颁发行业认证证书，覆盖**KSql**、**KStudio**、**KDMS**等工具使用
 
 ### 3. 代码仓库同步
-- 🔗 GitHub：https://github.com/hgsandy/kingbasees-docs（国际用户、开源社区）  
+- 🔗 GitHub：https://github.com/hgsandy/kingbasees-docs
 <!--- 🔗 Gitee：https://gitee.com/hgsandy/kingbasees-docs（国内用户、**信创**相关适配文档）  
 - 🔗 GitCode：https://gitcode.net/hgsandy/kingbasees-docs（政企用户、合规性文档）  -->
 
