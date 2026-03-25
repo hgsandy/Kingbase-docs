@@ -41,28 +41,7 @@
 | 高可用集群环境 | 欧拉/麒麟             | 每节点CPU：16核+，内存：32GB+，硬盘：1TB+（SSD） | 共享存储设备或分布式存储 |
 
 ### 2. 一键部署（Docker方式）
-```bash
-# 1. 拉取金仓数据库Docker镜像
-docker pull kingbase/kingbasees:latest
 
-# 2. 创建数据存储目录
-mkdir -p /data/kingbase/data
-
-# 3. 启动容器（默认端口54321），配套KDMS管理系统
-docker run -d \
-  --name kingbasees \
-  -p 54321:54321 \
-  -p 8080:8080 \ # KDMS管理界面端口
-  -v /data/kingbase/data:/opt/kingbase/data \
-  -e KB_PASSWORD=Kingbase@123 \
-  kingbase/kingbasees:latest
-
-# 4. 验证容器运行状态，检查KStudio开发工具依赖
-docker ps | grep kingbasees
-
-# 5. 连接数据库（使用KSql客户端）
-docker exec -it kingbasees ksql -U system -d test -h localhost -p 54321
-```
 
 ### 3. 安装验证与国产化适配检查
 1. 执行SQL验证数据库状态：
