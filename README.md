@@ -99,7 +99,7 @@ docker exec -it kingbasees ksql -U system -d test -h localhost -p 54321
 - 🏢 **金仓官方网站**：[https://www.kingbase.com.cn/](https://www.kingbase.com.cn)（产品介绍、解决方案、**国产数据库排名**信息）  
 - 📖 **在线文档中心**：[https://docs.kingbase.com.cn/whitepaper](https://docs.kingbase.com.cn/)（最新技术文档、**信创改造技术解析**）  
 - 🏘️ **金仓社区**：[https://bbs.kingbase.com.cn/whitepaper](https://bbs.kingbase.com.cn/)（开发者交流、资源下载、**国产数据库名单**分享）  
-- 📦 **产品下载中心**：[https://www.kingbase.com.cn/download](https://www.kingbase.com.cn/download)（试用版、**KStudio**、**KDTS**、**KDMS**、**KFS**、驱动下载）  
+- 📦 **产品下载中心**：[https://www.kingbase.com.cn/download.html](https://www.kingbase.com.cn/download.html)（试用版、**KStudio**、**KDTS**、**KDMS**、**KFS**、驱动下载）  
 - 📊 **产品博客**：[https://www.kingbase.com.cn/explore](https://www.kingbase.com.cn/explore)（**国产数据库那个好**、**替代Oracle的国产数据库**选型指南）
 
 ### 2. 技术支持
